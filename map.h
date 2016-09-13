@@ -1,0 +1,39 @@
+#ifndef MAP_H
+#define MAP_H
+
+//30x20
+const uint8_t map[30][20] = {
+	{ WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL,  WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL },
+	{ WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL,  WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL },
+	{ WALL, WALL, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, WALL, WALL, 0, 0, WALL, WALL,  0, 0, WALL, WALL, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, WALL, WALL, 0, 0, WALL, WALL,  0, 0, WALL, WALL, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, WALL, WALL, 0, 0, WALL, WALL,  0, 0, WALL, WALL, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, WALL, WALL, 0, 0, WALL, WALL,  0, 0, WALL, WALL, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, 0, 0, WALL, WALL, 0, 0,  0, 0, 0, 0, WALL, WALL, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, 0, 0, WALL, WALL, 0, 0,  0, 0, 0, 0, WALL, WALL, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, 0, 0, WALL, WALL, 0, 0,  0, 0, 0, 0, WALL, WALL, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, 0, 0, WALL, WALL, 0, 0,  0, 0, 0, 0, WALL, WALL, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, WALL, WALL, 0, 0, WALL, WALL,  0, 0, WALL, WALL, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, WALL, WALL, 0, 0, WALL, WALL,  0, 0, WALL, WALL, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, WALL, WALL, 0, 0, WALL, WALL,  0, 0, WALL, WALL, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, WALL, WALL, 0, 0, WALL, WALL,  0, 0, WALL, WALL, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, WALL, WALL, 0, 0, WALL, WALL,  0, 0, WALL, WALL, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, WALL, WALL, 0, 0, WALL, WALL,  0, 0, WALL, WALL, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, WALL, WALL, 0, 0, WALL, WALL,  0, 0, WALL, WALL, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, WALL, WALL, 0, 0, WALL, WALL,  0, 0, WALL, WALL, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, WALL, WALL, 0, 0, WALL, WALL,  0, 0, WALL, WALL, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, WALL, WALL, 0, 0, WALL, WALL,  0, 0, WALL, WALL, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, WALL, WALL },
+	{ WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL,  WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL },
+    { WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL,  WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL, WALL }
+};
+#endif
+
+
