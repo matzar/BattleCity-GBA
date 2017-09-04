@@ -58,7 +58,7 @@ int main() {
 			enemy.Destroy();                                // destroying enemy
 			eBullet.Hide();                                 // hiding bullet after enemy dies
 			enemy.m_Alive = false;
-			DrawText(80, 0, "YOU WON!");
+			DrawText(80, 0, "YOU WIN!");
 		}
 		
 		
@@ -68,7 +68,7 @@ int main() {
 			eBullet.m_bHeight + eBullet.m_Y > player.m_Y) {
 			player.Destroy();                               // destroying player	
 			player.m_Alive = false;
-			DrawText(80, 0, "YOU LOST!");	
+			DrawText(80, 0, "YOU LOSE!");	
 		}
 		
 		WaitVSync();
